@@ -30,7 +30,7 @@ public class LAB15 {
             
             for (int i= 1; i<= rsMetaData.getColumnCount(); i++)
             System.out.println(rsMetaData.getColumnName(i));
-            
+            z
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(LAB15.class.getName()).log(Level.SEVERE, null, ex);
         } catch (SQLException ex) {
